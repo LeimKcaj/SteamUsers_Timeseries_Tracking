@@ -7,11 +7,17 @@ Projet en Analyse séquentielle de données
 Ce projet contient plusieurs notebooks ayant des dépendances lourdes différentes (TensorFlow, Prophet, etc.).
 Pour éviter d'installer des centaines de Mo inutilement, **chaque notebook utilise son propre environnement Python**.
 
+## Cloner le projet
+
+git clone https://github.com/LeimKcaj/SteamUsers_Timeseries_Tracking.git
+cd SteamUsers_Timeseries_Tracking
 ---
 
 ## Prérequis généraux
 
 * Avoir une installation Python (plusieurs versions si besoin). Sur Windows, le lanceur `py` est pratique (`py -3.10` par ex.).
+* Python 3.10 et 3.12 (ou plus selon notebook)
+* Git installé
 * Ne **committez jamais** les dossiers `.venv` dans le dépôt.
 * Toujours installer les paquets via `python -m pip` pour être sûr d'utiliser le bon interpréteur.
 
