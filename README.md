@@ -5,7 +5,7 @@ Projet en Analyse séquentielle de données
 # Setup Instructions
 
 Ce projet contient plusieurs notebooks ayant des dépendances lourdes différentes (TensorFlow, Prophet, etc.).
-Pour éviter d'installer des centaines de Mo inutilement, **chaque notebook utilise son propre environnement Python**.
+Pour éviter d'installer des centaines de Mo inutilement, **chaque notebook peut utiliser son propre environnement Python**.
 
 ## Cloner le projet
 
