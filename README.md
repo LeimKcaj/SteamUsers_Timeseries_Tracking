@@ -100,5 +100,3 @@ repo/\
   * `Get-ExecutionPolicy`
   * Si nécessaire : `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
 * Pour convertir à conda, fournis un `environment.yml` au lieu de `requirements.txt`.
-
-Si tu veux que je génère aussi les fichiers `envs/tf_requirements.txt` et `envs/prophet_requirements.txt` de base (proposition), dis-le — je les crée et tu pourras copier-coller pareil.
