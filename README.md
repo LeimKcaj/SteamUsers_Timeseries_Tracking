@@ -78,13 +78,13 @@ python -m ipykernel install --user --name=venv_prophet --display-name "Python (P
 
 ## Structure recommandée du dépôt
 
-repo/
-├─ notebooks/
-│  ├─ tf_notebook.ipynb
-│  ├─ prophet_notebook.ipynb
-├─ envs/
-│  ├─ tf_requirements.txt
-│  ├─ prophet_requirements.txt
+repo/\
+├─ notebooks/\
+│  ├─ tf_notebook.ipynb\
+│  ├─ prophet_notebook.ipynb\
+├─ envs/\
+│  ├─ tf_requirements.txt\
+│  ├─ prophet_requirements.txt\
 ├─ README.md
 
 ---
