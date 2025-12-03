@@ -5,7 +5,7 @@ Projet en Analyse séquentielle de données
 # Setup Instructions
 
 Ce projet contient plusieurs notebooks ayant des dépendances lourdes différentes (TensorFlow, Prophet, etc.).
-Pour éviter d'installer des centaines de Mo inutilement, **chaque notebook utilise son propre environnement Python**.
+Pour éviter d'installer des centaines de Mo inutilement, **chaque notebook peut utiliser son propre environnement Python**.
 
 ## Cloner le projet
 
@@ -78,13 +78,13 @@ python -m ipykernel install --user --name=venv_prophet --display-name "Python (P
 
 ## Structure recommandée du dépôt
 
-repo/
-├─ notebooks/
-│  ├─ tf_notebook.ipynb
-│  ├─ prophet_notebook.ipynb
-├─ envs/
-│  ├─ tf_requirements.txt
-│  ├─ prophet_requirements.txt
+repo/\
+├─ notebooks/\
+│  ├─ tf_notebook.ipynb\
+│  ├─ prophet_notebook.ipynb\
+├─ envs/\
+│  ├─ tf_requirements.txt\
+│  ├─ prophet_requirements.txt\
 ├─ README.md
 
 ---
@@ -100,5 +100,3 @@ repo/
   * `Get-ExecutionPolicy`
   * Si nécessaire : `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
 * Pour convertir à conda, fournis un `environment.yml` au lieu de `requirements.txt`.
-
-Si tu veux que je génère aussi les fichiers `envs/tf_requirements.txt` et `envs/prophet_requirements.txt` de base (proposition), dis-le — je les crée et tu pourras copier-coller pareil.
