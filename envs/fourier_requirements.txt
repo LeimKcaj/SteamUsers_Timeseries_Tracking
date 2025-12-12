@@ -1,0 +1,11 @@
+pandas>=2.3.1,<3.0
+numpy>=2.3.0,<3.0
+matplotlib>=3.10.0,<4.0
+fftarray>=0.5.1 # Python >=3.11, library for fast Fourier transforms
+ipykernel>=7.1.0,<7.5.0
+astropy>=7.2,<8.0 # Library for astronomy, includes Lomb-Scargle periodogram
+scipy>=1.16.3,<2.0.0
+holidays>0.86,<1
+narwhals>=2.13.0,<3.0
+plotly>=6.5.0,<7.0
+nbformat>=5.10.4,<6.0
