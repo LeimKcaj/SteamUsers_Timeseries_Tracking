@@ -9,3 +9,4 @@ holidays>0.86,<1
 narwhals>=2.13.0,<3.0
 plotly>=6.5.0,<7.0
 nbformat>=5.10.4,<6.0
+Cartopy==0.25.0
